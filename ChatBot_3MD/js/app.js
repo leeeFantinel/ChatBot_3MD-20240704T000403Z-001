@@ -15,11 +15,11 @@ function wishMe() {
     var hour = date.getHours();
 
     if (hour >= 0 && hour < 12) {
-        falar("em que posso te auxiliar hoje?");
+        speak("em que posso te auxiliar hoje?");
     } else if (hour >= 12 && hour < 17) {
-        falar("em que posso te auxiliar hoje?");
+        speak("em que posso te auxiliar hoje?");
     } else {
-        falar("em que posso te auxiliar hoje?");
+        speak("em que posso te auxiliar hoje?");
     }
 }
 
